@@ -1,7 +1,7 @@
 {
-	"name": "{name}",
+	"name": "setupforsam",
 	"version": "1.0.0",
-	"description": "{description}",
+	"description": "setupforsam",
 	"main": "index.ts",
 	"scripts": {
 		"start": "tsc && node dist/index.js",
@@ -11,10 +11,11 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"openssl-nodejs": "^1.0.5"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.41",
 		"ts-node": "^9.1.1",
-		"typescript": "^4.2.4"
+		"typescript": "^4.7.4"
 	}
 }
